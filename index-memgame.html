@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="heb" dir="rtl">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style_2.css">
+        <title>משחק זכרון באנגלית</title>
+    </head>
+
+    <body>
+        <div class="background"></div>
+        
+        <audio id="birdAudio">
+            <source src="audio/bird.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id="catAudio">
+            <source src="audio/cat.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id="dogAudio">
+            <source src="audio/dog.mp4" type="audio/mpeg">
+        </audio>
+
+      
+
+        <audio id="tableAudio">
+            <source src="audio/table.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id="doorAudio">
+            <source src="audio/door.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id="windowAudio">
+            <source src="audio/window.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id="elephantAudio">
+            <source src="audio/elephant.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id="houseAudio">
+            <source src="audio/house.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id="chairAudio">
+            <source src="audio/chair.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id="eggAudio">
+            <source src="audio/egg.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "treeAudio">
+            <source src="audio/tree.mp4" type="audio/mpeg">
+        </audio>
+        <audio id= "horseAudio">
+            <source src="audio/horse.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "frogAudio">
+            <source src="audio/frog.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "frogAudio">
+            <source src="audio/frog.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "strawberryAudio">
+            <source src="audio/strawberry.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "cakeAudio">
+            <source src="audio/cake.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "plateAudio">
+            <source src="audio/plate.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "bedAudio">
+            <source src="audio/bed.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "tomatoAudio">
+            <source src="audio/tomato.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "cucumberAudio">
+            <source src="audio/cucumber.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "icecreamAudio">
+            <source src="audio/icecream.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "swingAudio">
+            <source src="audio/swing.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "slideAudio">
+            <source src="audio/slide.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "carAudio">
+            <source src="audio/car.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "moonAudio">
+            <source src="audio/moon.mp4" type="audio/mpeg">
+        </audio>
+
+        <audio id= "sunAudio">
+            <source src="audio/sun.mp4" type="audio/mpeg">
+        </audio>
+        
+        
+
+        <div class="grid_container">
+            <div class="header">
+                <h1 class="headline">משחק זכרון</h1>
+            </div>
+
+        
+            <div class="card_container">
+                <div class="card_grid">
+
+                </div>
+                  
+            </div>
+
+            <div class="nav_bar">
+                <div class="nav_bar_element fname">here a name will be displayed</div>
+                <div id="timer"><p class="timer_text">זמן</p></div>
+                <button class="nav_bar_element again_btn">חזרה</button>
+                <button class="nav_bar_elemen back_to_main hidden">חזרה לעמוד הראשי</button>
+            </div>
+
+            
+            
+        </div>
+
+        <div class="second_container">
+            <div class="popup_win start">
+                <h2>ברוכים הבאים למשחק הזכרון אנגלית!</h2><br>
+                <h2>בבקשה הזינו שם:</h2><br>
+                <form>
+                    <input type="text" id="name" name="name">
+                </form>
+                <button class="start_btn">בואו נתחיל!</button>
+            </div>
+
+            <div class="popup_win end hidden">
+                <h1 class="popup_greet">כל הכבוד!</h1>
+                <button class="again_btn">שחקו שוב</button>
+                <button class="back_to_main hidden">חזרה לעמוד הראשי</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
